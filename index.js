@@ -1,6 +1,6 @@
 const { ethers } = require('ethers');
 
-const privatekey = " "; /*private key de wallet*/
+const privatekey = " "; /*private key wallet*/
 const rpc = 'https://api.roninchain.com/rpc'; 
 const provider = new ethers.JsonRpcProvider(rpc, 2020, { batchMaxCount: 1 });
 const Wallet = new ethers.Wallet(privatekey, provider);
